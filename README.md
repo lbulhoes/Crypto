@@ -5,4 +5,6 @@ The aim of this repository is register some notes about cryptography, and algori
 
 ## What is Cryptography?
 
+![image info](./images/head.jpg)
+
 Imagine a situation where
