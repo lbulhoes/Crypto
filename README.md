@@ -1,6 +1,6 @@
 # Repositório de Criptografia
 
-Este repositório está sendo construido com o objetivo de registrar alguns avanços que venho fazendo na teoria de criptografia. Aqui estarão disponíveis os principais algoritmos que eu venha a implementar, bem como algumas notas de aula referentes aos principais tópicos.
+Este repositório está sendo construído com o objetivo de registrar alguns avanços que venho fazendo na teoria de criptografia. Aqui estarão disponíveis os principais algoritmos que eu venha a implementar, bem como algumas notas de aula referentes aos principais tópicos.
 
 Para este projeto irei utilizar o livro [*Cryptography: Theory and Practice*](https://www.amazon.com.br/Cryptography-Practice-Douglas-Robert-Stinson-dp-1138197017/dp/1138197017/ref=dp_ob_image_bk).
 
