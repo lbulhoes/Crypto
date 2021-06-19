@@ -10,5 +10,5 @@ Para este projeto irei utilizar o livro [*Cryptography: Theory and Practice*](ht
 
 ![image info](./images/head.jpg)
 
-Para responder esta pergunta vamos imaginar uma situação em que duas pessoas precisam se comunicar secretamente. Elas precisam garantir que a mensagem seja entregue integralmente ao destinatário, e mais, que a mensagem não seja entendida por terceiros.
+Para responder esta pergunta vamos imaginar uma situação em que duas pessoas precisam se comunicar secretamente. Elas precisam garantir que o conteúdo da mensagem seja entregue integralmente ao destinatário, e mais, que a mensagem não seja entendida por terceiros. Para isso eles irão utilizar "chaves", que irão transformar a mensagem em um texto codificado que será enviado ao destinatário, e dessa forma o destinatário írá utilizar uma chave para fazer o processo inverso, transformar o texto codificado para a mensagem original. 
 
