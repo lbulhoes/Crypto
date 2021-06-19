@@ -1,11 +1,13 @@
-# Cryptography Repository
+# Repositório de Criptografia
 
-The aim of this repository is register some notes about cryptography, and algorithms implementations of cryptography. We'll use Java for algorithm implementation, but you can translate for any language of your choice.
+Este repositório está sendo construido com o objetivo de registrar alguns avanços que venho fazendo na teoria de criptografia. Aqui estarão disponíveis os principais algoritmos que eu venha a implementar, bem como notas de aula referentes aos principais tópicos.
 
-
-![image info](./images/head.jpg)
+Para este projeto irei utilizar o livro *Cryptography: Theory and Pratice*
 
 
 ## What is Cryptography?
 
+![image info](./images/head.jpg)
+
 Imagine a situation where
+
