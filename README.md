@@ -9,8 +9,6 @@ Para este projeto irei utilizar o livro [*Cryptography: Theory and Practice*](ht
 ## O que é criptografia?
 
 ![image info](./images/head.jpg)
-|:--:|
-| Imagem retirada do filme: **The imitation game**. |
 
-Para responder esta pergunta vamos imaginar uma situação em que duas pessoas precisam se comunicar secretamente, elas precisam garantir que a mensagem seja entregue integralmente ao destinatário, e mais, que a mensagem não seja entendida por terceiros.
+Para responder esta pergunta vamos imaginar uma situação em que duas pessoas precisam se comunicar secretamente. Elas precisam garantir que a mensagem seja entregue integralmente ao destinatário, e mais, que a mensagem não seja entendida por terceiros.
 
