@@ -3,7 +3,7 @@
 O Shift Cipher *cryptosystem* é um sistema de criptografia definido sobre o anel  <img src="../../images/ring.png" width="40"/>. Para codificar uma palavra nesse sistema devemos converter os caracteres formadores da palavra em seus respectivos valores numéricos através da seguinte relação:
 
 <p style="align:center">
-	<img src="../../images/alph_num.png">
+	<center><img src="../../images/alph_num.png"><center>
 </p>
 
 Após converter cada caracter em seu valor numérico, o método Shift Cipher irá somar o valor do shift ao valor numérico, obtendo assim, o valor correspondente a um outro caracter. Aqui é **importantíssimo** observar que, estamos olhando os números de 0 até 25 como elementos do anel <img src="../../images/ring.png" width="40">, e não como elementos de <img src="../../images/z.png" width="10">.
@@ -13,5 +13,34 @@ Se a palavra a ser codificada é "criptografia", e o valor do shift é 10, entã
 
 #### Implementação
 
+No arquivo *[ShiftFunction.java](ShiftFunction.java)* encontramos o núcleo do algoritmo. A classe ShiftFunction possui o método shift, que recebe como parâmetros uma string e um inteiro
 
+``` java
+// Método para fazer o shift
+public static StringBuffer shift(String text, int s){
+	
+	// Cria o objeto result da classe StringBuffer
+	StringBuffer result = new StringBuffer();
+		
+	// Início do laço para varrer os caracteres da String recebida
+	for(int i = 0; i < text.length(); i++){
+
+		//Caso o caractere for maiúsculo
+		if(Character.isUpperCase(text.charAt(i))){
+			//ch recebe o valor do character encriptado
+			char ch = (char)(((int)text.charAt(i) + s - 65)%26 + 65);
+			//A StringBuffer result é atualizada concatenando o valor de ch
+			result.append(ch);
+		}
+		//Caso o caractere for minúsculo
+		else{
+			//ch recebe o valor do character encriptado
+			char ch = (char)(((int)text.charAt(i) + s - 97)%26 + 97);
+			//A StringBuffer result é atualizada concatenando o valor de ch
+			result.append(ch);
+	}
+	//retorna a mensagem criptografada
+	return result;
+}
+```
 
