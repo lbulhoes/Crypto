@@ -3,7 +3,7 @@
 O Shift Cipher *cryptosystem* é um sistema de criptografia definido sobre o anel  <img src="../../images/ring.png" width="40"/>. Para codificar uma palavra nesse sistema devemos converter os caracteres formadores da palavra em seus respectivos valores numéricos através da seguinte relação:
 
 <p style="align:center">
-	<center><img src="../../images/alph_num.png"><center>
+	<img src="../../images/alph_num.png">
 </p>
 
 Após converter cada caracter em seu valor numérico, o método Shift Cipher irá somar o valor do shift ao valor numérico, obtendo assim, o valor correspondente a um outro caracter. Aqui é **importantíssimo** observar que, estamos olhando os números de 0 até 25 como elementos do anel <img src="../../images/ring.png" width="40">, e não como elementos de <img src="../../images/z.png" width="10">.
