@@ -14,3 +14,9 @@ Para responder esta pergunta vamos imaginar uma situação em que duas pessoas p
 
 Portanto, fica claro que a criptografia é um conjunto de técnicas utilizadas para transformar um conjunto de dados em um novo conjunto de dados (cifrados), que só podem ser decifrados por quem tenha a "chave" de acesso.
 
+
+## Guia de Navegação 
+1. Algoritmos Clássicos
+	1. [Shift Cipher](algoritmos/ShiftCipher)
+	2. Hill Cipher
+
