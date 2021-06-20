@@ -1,4 +1,4 @@
-public class ShiftFunction{
+ublic class ShiftFunction{
 	
 	// Método para fazer o shift
 	public static StringBuffer shift(String text, int s){

@@ -44,3 +44,28 @@ public static StringBuffer shift(String text, int s){
 }
 ```
 
+Aqui utilizamos uma StringBuffer, pois esta classe permite mutabilidade e iremos fazer uso disso para atualizar o valor do texto criptografado.
+
+Utilizamos o 'for' para iniciar um laço que irá varrer a String recebida como parâmetro. Este laço irá verificar, através do condicional 'if', se o caractere é maiúsculo ou minúsculo
+
+```java
+//Caso o caractere for maiúsculo
+	if(Character.isUpperCase(text.charAt(i))){
+		//ch recebe o valor do character encriptado
+		char ch = (char)(((int)text.charAt(i) - 65 + s)%26 + 65);
+		//A StringBuffer result é atualizada concatenando o valor de ch
+		result.append(ch);
+	}
+	//Caso o caractere for minúsculo
+	else{
+		//ch recebe o valor do character encriptado
+		char ch = (char)(((int)text.charAt(i) - 97 + s)%26 + 97);
+		//A StringBuffer result é atualizada concatenando o valor de ch
+		result.append(ch);
+}
+```
+Caso o caractere for maiúsculo iremos converter seu valor para o inteiro equivalente, mas, pelo protocolo ASCII, as letras maíusculas são representadas pelos números inteiros de 65 até 90. Portanto, para nosso algoritmo ser consistente com a teoria, deve-se subtrair 65 de seu valor representado pelo ASCII, obtendo assim um valor inteiro entre 0 e 25. Feito isso, efetuamos o shift, somando o valor do shift 's' ao valor numérico do caractere entre 0 e 25. Neste ponto observamos novamente que estamos considerando os valores mod 26, logo devemos considerar o resto da divisão por 26 e então somar esse resultado com 65, o que irá nos devolver um valor entre 65 e 90, que é reconhecido pelo ASCII como um caractere alfabético maiúsculo.
+
+Caso o caractere for minúsculo o procedimento será semelhante ao descrito acima, observando apenas que o protocolo ASCII associa os caracteres alfabéticos minúsculos aos valores inteiros de 97 até 122.
+
+Ao fim do laço, o método shift retorna o valor result para o método main.
