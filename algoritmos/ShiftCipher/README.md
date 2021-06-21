@@ -68,4 +68,4 @@ Caso o caractere seja maiúsculo iremos converter seu valor para o inteiro equiv
 
 Caso o caractere seja minúsculo o procedimento será semelhante ao descrito acima, observando apenas que o protocolo ASCII associa os caracteres alfabéticos minúsculos aos valores inteiros de 97 até 122.
 
-Ao fim do laço, o método shift retorna o valor result para o método main.
+Ao fim do laço, o método shift retorna o valor result para o método 'main' presente no arquivo [ShiftCipher.java](ShiftCipher.java).
