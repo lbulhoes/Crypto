@@ -20,8 +20,11 @@ public class ShiftFunction{
 				char ch = (char)(((int)text.charAt(i) + s - 97)%26 + 97);
 				//A StringBuffer result é atualizada concatenando o valor de ch
 				result.append(ch);
+			}
 		}
+
 		//retorna a mensagem criptografada
 		return result;
 
+	}
 }

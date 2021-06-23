@@ -14,10 +14,8 @@ class ShiftCipher{
 
 		String text = in2.nextLine();
 
-		ShiftFunction encry = new ShiftFunction();
-
 		System.out.printf("%nA mensagem codificada eh:");
-		System.out.println(encry.shift(text, s));
+		System.out.println(ShiftFunction.shift(text, s));
 
     }
 
