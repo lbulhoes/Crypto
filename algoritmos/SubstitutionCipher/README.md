@@ -4,8 +4,11 @@ Uma permutação é definida como uma função bijetora cujo domínio coincide c
 
 #### Exemplo
 
-<p style="align-center">
-	<img src="../../images/permut.gif" aligne="middle">
+<p align="center">
+
+  <img src="../../images/permut.png">
+
+
 </p>
 
 
