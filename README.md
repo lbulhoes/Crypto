@@ -19,5 +19,6 @@ Portanto, fica claro que a criptografia é um conjunto de técnicas utilizadas p
 ## Guia de Navegação 
 1. Algoritmos Clássicos
 	1. [Shift Cipher](algoritmos/ShiftCipher)
-	2. Hill Cipher
+	2. [Substitution Cipher](algoritmos/SubstitutionCipher)
+	3. Hill Cipher
 
