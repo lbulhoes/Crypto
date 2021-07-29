@@ -24,3 +24,5 @@ Portanto, fica claro que a criptografia é um conjunto de técnicas utilizadas p
 	4. Vigenère Cipher
 	5. Hill Cipher
 
+2. Criptoanálise
+    1. [Criptoanálise com Estatística]
